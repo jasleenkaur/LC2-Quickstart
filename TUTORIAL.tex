@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title: Quick Start Guide to LibreCAD       %
+% Author: Jasleen Kaur                       %
+% Email: jasleen.7956@gmail.com              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[titlepage]{article}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[margin=1.3in,footskip=0.25in]{geometry}
+
+\title{Quick Start Guide to LibreCAD}
+\author{Jasleen Kaur\\
+Email: jasleen.7956@gmail.com\\
+Blog: jasleen7956.wordpress.com}
+}
+\date{\today}
+\pagestyle{fancyplain}
+\fancyhf{}
+\rhead{ \fancyplain{}{LibreCAD} }
+\rfoot{ \fancyplain{}{\thepage} }
+\lfoot{ \fancyplain{}{Jasleen Kaur: Quick Start Guide to LibreCAD} }
+\renewcommand{\footrulewidth}{0.4pt}
+\pdfpageheight =845pt   % to set height of paper
+
+
+\begin{document}
+\maketitle 
+    \begin{abstract}
+    This Quick Start Guide will help to introduce you with LibreCAD. If you have
+    no experience of CAD before, then its a right place to start. This tutorial will make you familiar with many CAD concepts and it will also tell you how to use various functions and commands in LibreCAD. You need to keep
+   patience while reading and enjoy the tutorial.
+       \begin{flushright}
+       Jasleen Kaur
+       \end{flushright}
+    \end{abstract}
+\tableofcontents
+\newpage
+
+%whole content
+\section{\textbf{Basics of CAD}}
+\input{basic.tex}
+%
+\newpage
+\section{{Introduction to LibreCAD}}
+\input{librecad.tex}
+%
+\newpage
+\section{Preparing for Drawing}
+\input{preparing.tex}
+%
+\newpage
+\section{Using Command Line} \vspace{.1in}
+\input{command.tex}
+%
+\newpage
+\section{Play with LibreCAD} 
+\input{play.tex}
+\newpage
+\section{Lets Draw Something}
+\input{draw.tex}
+\newpage
+    \begin{thebibliography}{5}
+    \bibitem{vark:knud} http://librecad.org
+    \bibitem{vark:knud} http://wiki.librecad.org
+    \end{thebibliography}
+\end{document}

@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}\textbf {Basics of CAD}}{2}
+\contentsline {section}{\numberline {2}{Introduction to LibreCAD}}{4}
+\contentsline {section}{\numberline {3}Preparing for Drawing}{8}
+\contentsline {section}{\numberline {4}Using Command Line}{12}
+\contentsline {section}{\numberline {5}Play with LibreCAD}{14}
+\contentsline {section}{\numberline {6}Lets Draw Something}{17}
+\contentsline {subsection}{\numberline {6.1}Lets Create a Yard}{17}
